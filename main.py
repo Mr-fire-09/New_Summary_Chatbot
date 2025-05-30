@@ -1,10 +1,11 @@
+
+import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 import requests
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
-import streamlit as st
 import os
 import time
 
